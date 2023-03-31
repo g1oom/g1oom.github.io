@@ -8,5 +8,5 @@ React | Bootstrap | Typist | GitHub API
 
 ## References
 
-Hashir Shoaib: [home](https://github.com/hashirshoaeb/home)
-Bootdey Admin: [bs4 my experience timeline](https://bootdey.com/snippets/view/bs4-my-experience-timeline)
+- Hashir Shoaib: [home](https://github.com/hashirshoaeb/home)
+- Bootdey Admin: [bs4 my experience timeline](https://bootdey.com/snippets/view/bs4-my-experience-timeline)

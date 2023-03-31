@@ -1,11 +1,8 @@
 import React from "react";
-
-import axios from "axios";
 import { Jumbotron } from "./migration";
 
 const AboutMe = ({ heading, message, link, imgSize, resume }) => {
   const [profilePicUrl, setProfilePicUrl] = React.useState("");
-  const [showPic, setShowPic] = React.useState(Boolean(link));
   
   React.useEffect(() => {
     setProfilePicUrl(link);
@@ -17,7 +14,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
     <Jumbotron id="aboutme" className="m-0">
       <div className="container row">
         <div className="col-5 d-none d-lg-block align-self-center">
-          {showPic && (
+          {link && (
             <img
               className="border border-secondary rounded-circle"
               src={profilePicUrl}
@@ -27,7 +24,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
             />
           )}
         </div>
-        <div className={`col-lg-${showPic ? "7" : "12"}`}>
+        <div className={`col-lg-${link ? "7" : "12"}`}>
           <h2 className="display-4 mb-5 text-center">{heading}</h2>
           <p className="lead text-center">{message}</p>
           {resume && (
