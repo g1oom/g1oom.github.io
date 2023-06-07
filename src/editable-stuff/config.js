@@ -35,7 +35,7 @@ const about = {
   imageLink: require("../editable-stuff/profile-pic.jpeg"),
   imageSize: 375,
   message:
-    "Hi, I'm Albert (Wei Jun) Ong and I’m a Computer Science major at the University of California, Los Angeles (UCLA). My primary interests are in Machine Learning and Web Development. In my free time, I play Table Tennis in the Junior Varsity team and play the piano in UCLA's Game Music Ensemble.",
+    "Hi, I'm Albert (Wei Jun) Ong and I’m a rising junior majoring in Computer Science at the University of California, Los Angeles (UCLA). My primary interests are in software engineering, artificial intelligence, and quantitative trading. In my free time, I play Table Tennis in the Junior Varsity team and play the piano in UCLA's Game Music Ensemble.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -115,7 +115,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for internship opportunities related to software engineering, quantitative trading, and data science! If you have any questions (or just want to say hi), please feel free to email me at",
+    "I'm currently looking for internship opportunities related to software engineering, artificial intelligence, and quantitative trading! If you have any questions (or just want to say hi), please feel free to email me at",
   email: "albertowj2001@gmail.com",
 };
 
@@ -124,16 +124,22 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
+      role: 'Software Engineer Intern @ ISAFE Enterprises',
+      startDate: 'Jun 2023',
+      endDate: 'Present',
+      description: 'Building mobile application using React Native.',
+    },
+    {
+      role: 'Research Assistant @ PARISlab, UCLA',
+      startDate: 'Oct 2022',
+      endDate: 'Present',
+      description: 'Creating a differentiable molecular dynamics framework for peridynamics simulation using JAX.',
+    },
+    {
       role: 'Software Engineer @ Daily Bruin, UCLA',
       startDate: 'Oct 2022',
       endDate: 'Present',
       description: 'Working on management platform which monitors the statuses of 7+ websites used by 200+ editors.',
-    },
-    {
-      role: 'Undergraduate Research Assistant @ PARISlab, UCLA',
-      startDate: 'Oct 2022',
-      endDate: 'Present',
-      description: 'Creating a differentiable molecular dynamics framework for peridynamics simulation using JAX.',
     },
     {
       role: 'Software Engineer Intern @ STACS',
