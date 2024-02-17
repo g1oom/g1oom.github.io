@@ -35,7 +35,7 @@ const about = {
   imageLink: require("../editable-stuff/profile-pic.jpeg"),
   imageSize: 375,
   message:
-    "Hi, I'm Albert (Wei Jun) Ong and I’m a rising junior majoring in Computer Science at the University of California, Los Angeles (UCLA). My primary interests are in software engineering, artificial intelligence, and quantitative trading. In my free time, I play Table Tennis in the Junior Varsity team and play the piano in UCLA's Game Music Ensemble.",
+    "Hi, I'm Albert (Wei Jun) Ong and I’m a junior majoring in Computer Science at the University of California, Los Angeles (UCLA). My primary interests are in computer vision, machine learning, and software engineering. In my free time, I play Table Tennis in the Junior Varsity team and play the piano in UCLA's Game Music Ensemble.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -86,6 +86,7 @@ const skills = {
     { name: "Go", value: 65 },
   ],
   frameworks: [
+    { name: "PyTorch", value: 90 },
     { name: "React Native", value: 90 },
     { name: "Express", value: 85 },
     { name: "Gin", value: 65 },
@@ -102,10 +103,13 @@ const skills = {
   ],
   others: [
     { name: "MySQL", value: 90 },
+    { name: "Docker", value: 85 },
     { name: "PostgreSQL", value: 85 },
     { name: "Git", value: 90 },
+    { name: "Kubernetes", value: 85 },
     { name: "MongoDB", value: 80 },
     { name: "Node.js", value: 85 },
+    { name: "AWS", value: 80 },
   ],
 };
 
@@ -114,7 +118,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for internship opportunities related to software engineering, artificial intelligence, and quantitative trading! If you have any questions (or just want to say hi), please feel free to email me at",
+    "I'm currently looking for internship opportunities related to computer vision, machine learning, and software engineering! If you have any questions (or just want to say hi), please feel free to email me at",
   email: "albertowj2001@gmail.com",
 };
 
@@ -123,15 +127,15 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer Intern @ ISAFE Enterprises',
+      role: 'Mobile Developer Intern @ ISAFE Enterprises',
       startDate: 'Jun 2023',
       endDate: 'Present',
       description: 'Building education-based mobile application using React Native.',
     },
     {
-      role: 'Research Assistant @ PARISlab, UCLA',
+      role: 'ML Research Assistant @ PARISlab, UCLA',
       startDate: 'Oct 2022',
-      endDate: 'Present',
+      endDate: 'Jun 2023',
       description: 'Creating a differentiable molecular dynamics framework for peridynamics simulation using JAX.',
     },
     {
@@ -147,7 +151,7 @@ const experiences = {
       description: 'Developed critical post-trade reporting and asset servicing modules. Co-authored company’s internal React library.',
     },
     {
-      role: 'Student Researcher @ Singapore University of Technology and Design',
+      role: 'ML Student Researcher @ Singapore University of Technology and Design',
       startDate: 'Mar 2018',
       endDate: 'Feb 2019',
       description: 'Implemented a supervised Machine Learning program to classify unstructured texts in cybersecurity reports PDF. Achieved 83.3% classification accuracy.',
