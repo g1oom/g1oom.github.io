@@ -127,22 +127,28 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Mobile Developer Intern @ ISAFE Enterprises',
-      startDate: 'Jun 2023',
+      role: 'ML Research Assistant @ CVIB, UCLA',
+      startDate: 'Feb 2024',
       endDate: 'Present',
-      description: 'Building education-based mobile application using React Native.',
-    },
-    {
-      role: 'ML Research Assistant @ PARISlab, UCLA',
-      startDate: 'Oct 2022',
-      endDate: 'Jun 2023',
-      description: 'Creating a differentiable molecular dynamics framework for peridynamics simulation using JAX.',
+      description: 'Contributing to SimpleMind, an AI framework that adds machine reasoning to deep neural networks',
     },
     {
       role: 'Software Engineer @ Daily Bruin, UCLA',
       startDate: 'Oct 2022',
       endDate: 'Present',
-      description: 'Working on management platform which monitors the statuses of 7+ websites used by 200+ editors.',
+      description: 'Working on management platform which monitors the statuses of 7+ websites used by 200+ editors',
+    },
+    {
+      role: 'Mobile Developer Intern @ ISAFE Enterprises',
+      startDate: 'Jun 2023',
+      endDate: 'Sep 2023',
+      description: 'Building education-based mobile application using React Native',
+    },
+    {
+      role: 'ML Research Assistant @ PARISlab, UCLA',
+      startDate: 'Oct 2022',
+      endDate: 'Jun 2023',
+      description: 'Creating a differentiable molecular dynamics framework for peridynamics simulation using JAX',
     },
     {
       role: 'Software Engineer Intern @ STACS',
