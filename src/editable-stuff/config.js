@@ -118,7 +118,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for internship opportunities related to computer vision, machine learning, and software engineering! If you have any questions (or just want to say hi), please feel free to email me at",
+    "I'm currently looking for full-time opportunities related to computer vision, machine learning, and software engineering for 2025! If you have any questions (or just want to say hi), please feel free to email me at",
   email: "albertowj2001@gmail.com",
 };
 
@@ -126,6 +126,12 @@ const experiences = {
   show: true,
   heading: "Experiences",
   data: [
+    {
+      role: 'Incoming Software Engineer Intern @ LinkedIn',
+      startDate: 'Jun 2024',
+      endDate: 'Sep 2024',
+      description: 'Talent Information Delivery Engineering team',
+    },
     {
       role: 'ML Research Assistant @ CVIB, UCLA',
       startDate: 'Feb 2024',
