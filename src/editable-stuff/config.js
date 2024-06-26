@@ -35,7 +35,7 @@ const about = {
   imageLink: require("../editable-stuff/profile-pic.jpeg"),
   imageSize: 375,
   message:
-    "Hi, I'm Albert (Wei Jun) Ong and I’m a junior majoring in Computer Science at the University of California, Los Angeles (UCLA). My primary interests are in computer vision, machine learning, and software engineering. In my free time, I play Table Tennis in the Junior Varsity team and play the piano in UCLA's Game Music Ensemble.",
+    "Hi, I'm Albert (Wei Jun) Ong and I’m a rising senior majoring in Computer Science at the University of California, Los Angeles (UCLA). My primary interests are in computer vision, machine learning, and software engineering. In my free time, I play Table Tennis in the Junior Varsity team and play the piano in UCLA's Game Music Ensemble.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
