@@ -77,7 +77,7 @@ const skills = {
   heading: "Skills",
   languages: [
     { name: "Python", value: 90 },
-    { name: "JavaScript", value: 85 },
+    { name: "JavaScript/TypeScript", value: 85 },
     { name: "C", value: 80 },
     { name: "HTML/CSS", value: 85 },
     { name: "Java", value: 80 },
@@ -89,7 +89,8 @@ const skills = {
     { name: "PyTorch", value: 90 },
     { name: "React Native", value: 90 },
     { name: "Express", value: 85 },
-    { name: "Gin", value: 65 },
+    { name: "FastAPI", value: 65 },
+    { name: "Remix", value: 70 },
     { name: "Spring Boot", value: 90 },
     { name: "JAX", value: 80 },
   ],
@@ -99,17 +100,16 @@ const skills = {
     { name: "scikit-learn", value: 80 },
     { name: "Redux", value: 90 },
     { name: "pandas", value: 85 },
-    { name: "GORM", value: 65 },
   ],
   others: [
     { name: "MySQL", value: 90 },
     { name: "Docker", value: 85 },
-    { name: "PostgreSQL", value: 85 },
-    { name: "Git", value: 90 },
-    { name: "Kubernetes", value: 85 },
-    { name: "MongoDB", value: 80 },
-    { name: "Node.js", value: 85 },
     { name: "AWS", value: 80 },
+    { name: "MongoDB", value: 80 },
+    { name: "Kubernetes", value: 85 },
+    { name: "Azure", value: 80 },
+    { name: "Node.js", value: 85 },
+    { name: "PostgreSQL", value: 85 },
   ],
 };
 
@@ -127,10 +127,10 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Incoming Software Engineer Intern @ LinkedIn',
+      role: 'Software Engineer Intern @ LinkedIn',
       startDate: 'Jun 2024',
-      endDate: 'Sep 2024',
-      description: 'Talent Information Delivery Engineering team',
+      endDate: 'Present',
+      description: 'Building a talent tracking self-service portal to integrate HR systems and frameworks',
     },
     {
       role: 'ML Research Assistant @ CVIB, UCLA',
