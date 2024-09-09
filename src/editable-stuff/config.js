@@ -127,34 +127,28 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer Intern @ LinkedIn',
-      startDate: 'Jun 2024',
-      endDate: 'Sep 2024',
-      description: 'Building a self-service data platform to integrate real-time data from HR applications',
-    },
-    {
       role: 'ML Research Assistant @ Center for Computer Vision and Imaging Biomarkers, UCLA',
       startDate: 'Feb 2024',
       endDate: 'Present',
       description: 'Contributing to SimpleMind, an AI framework that adds machine reasoning to deep neural networks',
     },
     {
-      role: 'Software Engineer @ Daily Bruin, UCLA',
-      startDate: 'Oct 2022',
-      endDate: 'Present',
-      description: 'Working on management platform which monitors the statuses of 7+ websites used by 200+ editors',
+      role: 'Software Engineer Intern @ LinkedIn',
+      startDate: 'Jun 2024',
+      endDate: 'Sep 2024',
+      description: 'Built a self-service data platform to integrate real-time data from HR applications',
     },
     {
       role: 'Mobile Developer Intern @ ISAFE Enterprises',
       startDate: 'Jun 2023',
       endDate: 'Sep 2023',
-      description: 'Building education-based mobile application using React Native',
+      description: 'Developed an education-based mobile application using React Native',
     },
     {
       role: 'ML Research Assistant @ Physics of Amorphous and Inorganic Solids Lab, UCLA',
       startDate: 'Oct 2022',
       endDate: 'Jun 2023',
-      description: 'Creating a differentiable molecular dynamics framework for peridynamics simulation using JAX',
+      description: 'Created a differentiable molecular dynamics framework for peridynamics simulation using JAX',
     },
     {
       role: 'Software Engineer Intern @ STACS',
