@@ -20,7 +20,7 @@ const Footer = (props) => {
         using <i className="fab fa-react" />
         <p>
           <small className="text-muted">
-            Last Updated: Jun 2024
+            Last Updated: Sep 2024
           </small>
         </p>
       </Container>

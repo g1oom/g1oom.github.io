@@ -35,7 +35,7 @@ const about = {
   imageLink: require("../editable-stuff/profile-pic.jpeg"),
   imageSize: 375,
   message:
-    "Hi, I'm Albert (Wei Jun) Ong and I’m a rising senior majoring in Computer Science at the University of California, Los Angeles (UCLA). My primary interests are in computer vision, machine learning, and software engineering. In my free time, I play Table Tennis in the Junior Varsity team and play the piano in UCLA's Game Music Ensemble.",
+    "Hi, I'm Albert (Wei Jun) Ong and I’m a senior majoring in Computer Science at the University of California, Los Angeles (UCLA). My primary interests are in computer vision, machine learning, and software engineering. In my free time, I play Table Tennis in the Junior Varsity team and play the piano in UCLA's Game Music Ensemble.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -129,11 +129,11 @@ const experiences = {
     {
       role: 'Software Engineer Intern @ LinkedIn',
       startDate: 'Jun 2024',
-      endDate: 'Present',
-      description: 'Building a talent tracking self-service portal to integrate HR systems and frameworks',
+      endDate: 'Sep 2024',
+      description: 'Building a self-service data platform to integrate real-time data from HR applications',
     },
     {
-      role: 'ML Research Assistant @ CVIB, UCLA',
+      role: 'ML Research Assistant @ Center for Computer Vision and Imaging Biomarkers, UCLA',
       startDate: 'Feb 2024',
       endDate: 'Present',
       description: 'Contributing to SimpleMind, an AI framework that adds machine reasoning to deep neural networks',
@@ -151,7 +151,7 @@ const experiences = {
       description: 'Building education-based mobile application using React Native',
     },
     {
-      role: 'ML Research Assistant @ PARISlab, UCLA',
+      role: 'ML Research Assistant @ Physics of Amorphous and Inorganic Solids Lab, UCLA',
       startDate: 'Oct 2022',
       endDate: 'Jun 2023',
       description: 'Creating a differentiable molecular dynamics framework for peridynamics simulation using JAX',
@@ -160,13 +160,13 @@ const experiences = {
       role: 'Software Engineer Intern @ STACS',
       startDate: 'Jan 2022',
       endDate: 'Jul 2022',
-      description: 'Developed critical post-trade reporting and asset servicing modules. Co-authored company’s internal React library.',
+      description: 'Developed critical post-trade reporting and asset servicing modules. Co-authored company’s internal React library',
     },
     {
       role: 'ML Student Researcher @ Singapore University of Technology and Design',
       startDate: 'Mar 2018',
       endDate: 'Feb 2019',
-      description: 'Implemented a supervised Machine Learning program to classify unstructured texts in cybersecurity reports PDF. Achieved 83.3% classification accuracy.',
+      description: 'Implemented a supervised Machine Learning program to classify unstructured texts in cybersecurity reports PDF. Achieved 83.3% classification accuracy',
     },
   ]
 }
