@@ -35,7 +35,7 @@ const about = {
   imageLink: require("../editable-stuff/profile-pic.jpeg"),
   imageSize: 375,
   message:
-    "Hi, I'm Albert (Wei Jun) Ong and I’m a senior majoring in Computer Science at the University of California, Los Angeles (UCLA). My primary interests are in computer vision, machine learning, and software engineering. In my free time, I play Table Tennis in the Junior Varsity team and play the piano in UCLA's Game Music Ensemble.",
+    "Hi, I'm Albert (Wei Jun) Ong and I’m a Software Engineer at LinkedIn, and I'm passionate about data infrastructure and distributed systems.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -83,7 +83,7 @@ const skills = {
     { name: "Java", value: 80 },
     { name: "C++", value: 85 },
     { name: "SQL", value: 85 },
-    { name: "Go", value: 65 },
+    { name: "Go", value: 75 },
   ],
   frameworks: [
     { name: "PyTorch", value: 90 },
@@ -118,7 +118,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time opportunities related to computer vision, machine learning, and software engineering for 2025! If you have any questions (or just want to say hi), please feel free to email me at",
+    "I'm currently looking for junior / mid-year software engineer roles related to full-stack development or data infrastructure! If you have any questions (or just want to say hi), please feel free to email me at",
   email: "albertowj2001@gmail.com",
 };
 
@@ -127,9 +127,15 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
+      role: 'Software Engineer @ LinkedIn',
+      startDate: 'Jul 2025',
+      endDate: 'Present',
+      description: 'Developing data integrations and building data infrastructure',
+    },
+    {
       role: 'ML Research Assistant @ Center for Computer Vision and Imaging Biomarkers, UCLA',
       startDate: 'Feb 2024',
-      endDate: 'Present',
+      endDate: 'Jun 2025',
       description: 'Contributing to SimpleMind, an AI framework that adds machine reasoning to deep neural networks',
     },
     {
