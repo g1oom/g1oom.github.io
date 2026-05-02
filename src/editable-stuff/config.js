@@ -35,7 +35,7 @@ const about = {
   imageLink: require("../editable-stuff/profile-pic.jpeg"),
   imageSize: 375,
   message:
-    "Hi, I'm Albert (Wei Jun) Ong and I’m a Software Engineer at LinkedIn, and I'm passionate about data infrastructure and distributed systems.",
+    "Hi, I'm Albert (Wei Jun) Ong and I’m a Software Engineer at LinkedIn. I'm passionate about data infrastructure and distributed systems.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
